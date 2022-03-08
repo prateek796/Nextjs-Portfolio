@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "export":"next export && touch out/.nojekyll"
+    "export": "next export && touch out/.nojekyll"
   },
   "dependencies": {
     "next": "^12.1.0",
@@ -18,5 +18,8 @@
   },
   "resolutions": {
     "webpack": "5.21.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
   }
 }
